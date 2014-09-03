@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جدول کلمات</string>
+
+    <string name="activity_settings">تنظیمات</string>
+    <string name="activity_clues">سوالات</string>
+    <string name="activity_puzzle_completed">جدول کامل شد!</string>
+
+    <string name="hello">Hello World, Play!</string>
+
+    <string name="menu_crosswords">جداول</string>
+    <string name="menu_archives">آرشیو</string>
+    <string name="menu_archive">آرشیو کردن</string>
+    <string name="menu_unarchive">خارج کردن از آرشیو</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_download">دریافت</string>
+    <string name="menu_sort">مرتب سازی</string>
+    <string name="menu_bydate_asc">بر اساس تاریخ</string>
+    <string name="menu_bydate_desc">بر اساس تاریخ (عکس)</string>
+    <string name="menu_bysource">بر اساس منبع</string>
+    <string name="menu_byauthor">بر اساس نویسنده</string>
+    <string name="menu_cleanup">پاک کردن</string>
+    <string name="menu_help">کمک</string>
+    <string name="menu_settings">تنظیمات</string>
+
+    <string name="pref_select_puzzle_sources">انتخاب منبع جدول</string>
+    <string name="pref_daily_crosswords">جداول روزانه</string>
+    <string name="pref_daily_crosswords_summary">جداولی که به صورت روزانه بروزرسانی میشوند</string>
+    <string name="pref_weekly_crosswords">جداول هفتگی</string>
+    <string name="pref_weekly_crosswords_summary">جداولی که به صورت هفتگی بروزرسانی میشوند</string>
+    <string name="pref_monthly_crosswords">جداول ماهانه</string>
+    <string name="pref_monthly_crosswords_summary">جداولی که به صورت ماهانه بروزرسانی میشوند</string>
+    <string name="pref_requires_subscription">نیازمند عضو شدن</string>
+    <string name="pref_username">نام کاربری</string>
+    <string name="pref_username_summary_nyt">NYT Username or Email Address</string>
+    <string name="pref_password">کلمه عبور</string>
+    <string name="pref_password_summary_nyt">NYT Password</string>
+    <string name="pref_get_subscription">دریافت عضویت</string>
+    <string name="pref_updates_mon_to_sat">Updates Monday–Saturday</string>
+    <string name="pref_updates_thu">Updates Thursdays</string>
+    <string name="pref_updates_fri">Updates Fridays</string>
+    <string name="pref_updates_sun">Updates Sundays</string>
+    <string name="pref_wapo_summary">Only most recent two weeks of puzzles available</string>
+    <string name="pref_avxw_summary">Requires subscription. Updates Wednesdays.</string>
+    <string name="pref_username_summary_avxw">AVXW Username or Email Address</string>
+    <string name="pref_password_summary_avxw">AVXW Password</string>
+    <string name="pref_andykravis_summary">Updates Sundays\nhttp://cruciverbalistatlaw.blogspot.com/</string>
+    <string name="pref_crooked_summary">Requires subscription. Updates Sundays.</string>
+    <string name="pref_username_summary_crooked">CRooked Crosswords Username or Email Address</string>
+    <string name="pref_password_summary_crooked">CRooked Crosswords Password</string>
+    <string name="pref_crossword_nation_summary">Requires subscription. Updates Tuesdays.</string>
+    <string name="pref_username_summary_crossword_nation">Crossword Nation Username or Email Address</string>
+    <string name="pref_password_summary_crossword_nation">Crossword Nation Password</string>
+    <string name="pref_erikagard_summary">Updates Wednesdays\nhttp://gluttonforpun.blogspot.com/</string>
+    <string name="pref_nevillefogarty_summary">Updates Fridays\nhttp://nevillefogarty.wordpress.com/</string>
+    <string name="pref_people_summary">Updates Fridays\nNo archives available</string>
+    <string name="pref_che_summary">Updates Fridays (biweekly during the summer)</string>
+    <!-- <string name="pref_reagle_summary">Updates Sundays\nOnly the 4 most recent puzzles available</string> -->
+    <string name="pref_mmmm_summary">Updates first Tuesday of the month\nSubmit meta answer online at:\nhttp://pmxwords.com</string>
+    <string name="pref_blindauer_summary">Updates on 1st of the month\nhttp://www.patrickblindauer.com</string>
+    <string name="pref_about_puzzles">جدباره جدول کلمات</string>
+    <string name="pref_about_puzzles_summary">اتصال به وبسایت</string>
+    <string name="pref_more_puzzle_links">جداول بیشتر</string>
+    <string name="pref_more_puzzle_links_summary">Links to more puzzles not included with Words With Crosses</string>
+    <string name="pref_application_settings">تنظیمات برنامه</string>
+    <string name="pref_automatic_download">دریافت اتوماتیک</string>
+    <string name="pref_automatic_download_summary">Download today\'s puzzles when starting the application</string>
+    <string name="pref_show_errors">نشان دادن اشتباهات</string>
+    <string name="pref_show_errors_summary">نشان دادن اشتباهات با رنگ قرمز</string>
+    <string name="pref_show_revealed_letters">نشان دادن حروف کمک گرفته شده</string>
+    <string name="pref_show_revealed_letters_summary">نشان دادن حروف کمک گرفته شده یا اشتباه قبلی به رنگ صورتی</string>
+    <string name="pref_delete_on_cleanup">پاک کردن</string>
+    <string name="pref_delete_on_cleanup_summary">پاک کردن به عوض آرشیو کردن</string>
+    <string name="pref_cleanup_unfinished">پاک کردن تمام نشده ها</string>
+    <string name="pref_cleanup_unfinished_summary">Determines how old an unfinished puzzle must be before it is archvied/deleted</string>
+    <string name="pref_snap_to_current_word">رفتن به کلمه جاری</string>
+    <string name="pref_snap_to_current_word_summary">تغییر جایگاه بازی به کلمه جاری</string>
+    <string name="pref_show_length">نشان دادن طول</string>
+    <string name="pref_show_length_summary">نشان دادن طول جواب در کنار سوال</string>
+    <string name="pref_scroll_to_clue">تغییر مکان به سوال</string>
+    <string name="pref_scroll_to_clue_summary">تغییر مکان به محل سوال</string>
+    <string name="pref_movement_style">نحوه تغییر مسیر حرکت</string>
+    <string name="pref_movement_style_summary">نحوه عمل کردن در انتهای سوال</string>
+    <string name="pref_skip_filled_boxes">منتظر ماندن</string>
+    <string name="pref_skip_filled_boxes_summary">تغییر حرف آخر زمانی که کلیدی زده میشود</string>
+    <string name="pref_space_changes_direction">تغیر جهت حرکت با کلید فاصله</string>
+    <string name="pref_space_changes_direction_summary">کلید فاصله نحوه حرکت را عوض کند به جای خالی گذاشتن حرف</string>
+    <string name="pref_enter_changes_direction">کلید اینتر جهت حرکت را عوض کند</string>
+    <string name="pref_enter_changes_direction_summary">کلید اینتر به جای عوض کردن مسیر حرکت به سوال بعدی برود</string>
+    <string name="pref_clue_size">تغییر اندازه سوال</string>
+    <string name="pref_clue_size_summary">تغییر اندازه فونت سوال</string>
+    <string name="pref_initial_zoom">بزرگنمایی اولیه</string>
+    <string name="pref_initial_zoom_summary">مشخص کردن میزان بزرگنمایی اولیه در هنگام باز کردن جدول</string>
+    <string name="pref_double_tap_zoom">قابلیت بزرگنمایی با دو بار اشاره</string>
+    <string name="pref_double_tap_zoom_summary">دو بار اشاره بین حالت بزرگنایی و حالت فیت عوض کند</string>
+    <string name="pref_touch_sensitivity">میزان حساسیت اشاره گر</string>
+    <string name="pref_touch_sensitivity_summary">تغییر میزان حساسیت اشاره نسبت به تغییر مکان جدول و انتخاب یک خانه</string>
+    <string name="pref_show_timer">نشان دادن زمان سنج</string>
+    <string name="pref_show_timer_summary">نشان دادن زمان جدول</string>
+    <string name="pref_show_progress_bar">نشان دادن میله پیشرفت</string>
+    <string name="pref_show_progress_bar_summary">نشان دادن میزان پیشرفت یک جدول در بالای آن (نیازمند دوباره باز کردن یک جدول)</string>
+    <string name="pref_full_screen">حالت تمام صفحه</string>
+    <string name="pref_full_screen_summary">مخفی کردن میله اطلاع رسانی(نیازمند دوباره باز کردن یک جدول)</string>
+    <string name="pref_show_keyboard">نشان دادن صفحه کلید</string>
+    <string name="pref_show_keyboard_summary">تفییر اینکه چه زمانی صفحه کلید ظاهر شود</string>
+    <string name="pref_keyboard_style">حالت صفحه کلید</string>
+    <string name="pref_keyboard_style_summary">انتخاب حالت صفحه کلید</string>
+    <string name="pref_orientation_lock">قفل کردن حالت صفحه</string>
+    <string name="pref_orientation_lock_summary">قفل کردن محل صفحه</string>
+    <string name="pref_category_notifications">تنظیمات اتطاع رسانی</string>
+    <string name="pref_enable_notifications">فعال سازی اطلاع رسانی</string>
+    <string name="pref_enable_notifications_summary">فعال سازی اطلاع رسانی دریافت جدول</string>
+    <string name="pref_individual_download_notifications">اطلاع رسانی جدول</string>
+    <string name="pref_individual_download_notifications_summary">اطلاع رسانی برای دریافت هر جدول</string>
+    <string name="pref_about_app">درباره جدول کلمات</string>
+    <string name="pref_release_notes">اطلاعات انتشار</string>
+    <string name="pref_license">حقوق</string>
+    <string name="pref_source_code">کد منبع</string>
+    <string name="pref_send_debug_package">ارسال اطلاعات خطایابی</string>
+    <string name="pref_send_debug_package_summary">فعال کردن ارسال ازلاعات خطایابی با ایمیل</string>
+
+    <string name="sources">منابع</string>
+    <string name="puzzles">جداول</string>
+    <string name="source_download">دریافت جداول</string>
+    <string name="source_unknown">منابع ناشناخته</string>
+    <string name="source_all_available">همه موارد در دسترس</string>
+    <string name="author_unknown">نویسنده ناشناس</string>
+
+    <string name="across">افقی</string>
+    <string name="down">عمودی</string>
+    <string name="completed_in">تکمیل شده در</string>
+    <string name="total_clues">مجموع سوالات</string>
+    <string name="total_boxes">مجموع خانه ها</string>
+    <string name="hinted_boxes">خانه های کمک گرفته شده</string>
+    <string name="share">انتشار</string>
+    <string name="done">خب</string>
+    <string name="elapsed_time">زمان سپری شده:</string>
+
+    <string name="share_text">من جدول شماره %1$ را برای %2$ در %3$ ثانیه در جدول کلمات تمام کردم :)</string>
+    <plurals name="share_text_hinted">
+      <item quantity="one">من جدول شماره %1$ را برای %2$ در %3$ ثانیه در جدول کلمات تمام کردم :)، حالا یه دونه کمک گرفتم</item>
+      <item quantity="other">من جدول شماره %1$ را برای %2$ در %3$ ثانیه در جدول کلمات تمام کردم :)، حالا  %4$دونه کمک که چیزی نیست</item>
+    </plurals>
+
+    <string name="puzzle_select">انتخاب جدول:</string>
+
+    <string name="downloading_puzzles">دریافت جدول</string>
+    <string name="downloading_from">دریافت جدول از  %s</string>
+    <string name="downloading_newline">در حال دریافت\n</string>
+    <string name="downloaded_new_puzzles_title">Downloaded new puzzles!</string>
+    <string name="downloaded_new_puzzles_text">New puzzles were downloaded.</string>
+    <string name="downloaded_puzzle_title">Downloaded %s</string>
+    <string name="download_failed">Download failed: %s</string>
+    <string name="download_failed_newline">Download failed:\n</string>
+    <string name="unknown_extension">Unknown file extension:\u0020</string>
+    <string name="loading_puzzle">بارگذاری جداول…</string>
+    <string name="load_puzzle_failed">خطا در بارگذاری جدول:\n</string>
+    <string name="device_configuration_error">عدم امکان خواندن تنظیمات دستگاه</string>
+    <string name="login_failed">نام کاربری یا کلمه عبور اشتباه است</string>
+
+    <string name="zoom_in">بزرگنمایی</string>
+    <string name="zoom_out">کوچک نمایی</string>
+    <string name="fit_to_screen">ثبت کردن به صفحه</string>
+
+    <string name="menu_show_errors">نشان دادن اشتباهات</string>
+    <string name="menu_hide_errors">مخفی کردن اشتباهات</string>
+    <string name="menu_use_pencil">استفاده از مداد</string>
+    <string name="menu_use_pen">استفاده از خودکار</string>
+    <string name="menu_reveal">کمک</string>
+    <string name="menu_reveal_letter">حرف</string>
+    <string name="menu_reveal_word">کلمه</string>
+    <string name="menu_reveal_puzzle">جدول</string>
+    <string name="menu_clear_puzzle">پاک کردن</string>
+    <string name="menu_clues">سوالات</string>
+    <string name="menu_info">اطلاعات</string>
+    <string name="menu_notes">یادداشت</string>
+
+    <string name="reveal_puzzle_title">حل کردن کل جدول</string>
+    <string name="clear_puzzle_title">پاک کردن کل جدول</string>
+    <string name="reveal_puzzle_body">مطمئن هستید?</string>
+
+    <string name="dialog_info_title">اطلاعات جدول</string>
+    <string name="dialog_notes_title">یادداشت های جدول</string>
+
+</resources>

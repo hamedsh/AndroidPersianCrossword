@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/context_zoom_in"
+      android:title="@string/zoom_in" />
+  <item
+      android:id="@+id/context_zoom_out"
+      android:title="@string/zoom_out" />
+  <item
+      android:id="@+id/context_fit_to_screen"
+      android:title="@string/fit_to_screen" />
+</menu>

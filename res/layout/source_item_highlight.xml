@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.haw3d.jadvalKalemat.view.HighlightTextView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:textSize="25sp"
+  android:background="#CC191F"
+  android:textColor="#FFF"
+  android:paddingTop="15dp"
+  android:paddingLeft="5dp"
+  android:paddingBottom="15dp"/>

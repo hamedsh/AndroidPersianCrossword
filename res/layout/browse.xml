@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:custom="http://schemas.android.com/apk/res/com.haw3d.jadvalKalemat">
+
+    <com.haw3d.jadvalKalemat.view.CustomFastScrollView
+        android:id="@+id/fastScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#343434"
+        custom:overlayWidth="360dp"
+        custom:overlayHeight="70dp"
+        custom:overlayTextSize="20dp"
+        custom:overlayScrollThumbWidth="60dp">
+
+        <ListView
+            android:id="@+id/puzzleList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+    </com.haw3d.jadvalKalemat.view.CustomFastScrollView>
+</LinearLayout>

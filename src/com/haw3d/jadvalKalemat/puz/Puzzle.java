@@ -1,0 +1,539 @@
+/**
+ * This file is part of Words With Crosses.
+ *
+ * Copyright (C) 2009-2010 Robert Cooper
+ * Copyright (C) 2013 Adam Rosenfield
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+package com.haw3d.jadvalKalemat.puz;
+
+import com.haw3d.jadvalKalemat.io.IO;
+
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.logging.Logger;
+
+public class Puzzle implements Cloneable {
+
+    private static final Logger LOG = Logger.getLogger("com.haw3d.jadvalKalemat");
+
+    private String author;
+    private String source;
+    private String copyright;
+    private String notes = "";
+    private String title;
+    private String[] acrossClues;
+    private Integer[] acrossCluesLookup;
+    private String[] downClues;
+    private Integer[] downCluesLookup;
+    private Location[] acrossCluesLocation;
+    private Location[] downCluesLocation;
+    private int numberOfClues;
+    private Calendar pubdate = Calendar.getInstance();
+    private Box[][] boxes;
+    private Box[] boxesList;
+    private String[] rawClues;
+    private int height;
+    private int width;
+    private long playedTime;
+    private boolean scrambled;
+    public short solutionChecksum;
+    private String version = IO.VERSION_STRING;
+
+    // Temporary fields used for unscrambling.
+    public int[] unscrambleKey;
+    public byte[] unscrambleTmp;
+    public byte[] unscrambleBuf;
+
+    public void setDownCluesLocation(Location[] locations){
+        this.downCluesLocation=locations;
+    }
+    public void setAcrossCluesLocation(Location[] locations){
+        this.acrossCluesLocation=locations;
+    }
+
+    public Location getLocation(int index,Boolean across){
+        if (across)
+            return acrossCluesLocation[index];
+        else
+            return downCluesLocation[index];
+    }
+
+    public void setAcrossClues(String[] acrossClues) {
+        this.acrossClues = acrossClues;
+    }
+
+    public String[] getAcrossClues() {
+        return acrossClues;
+    }
+
+    public void setAcrossCluesLookup(Integer[] acrossCluesLookup) {
+        //Arrays.sort(acrossCluesLookup);
+        this.acrossCluesLookup = acrossCluesLookup;
+    }
+
+    public Integer[] getAcrossCluesLookup() {
+        return acrossCluesLookup;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setBoxes(Box[][] boxes) {
+        this.boxes = boxes;
+    }
+
+    public void setBoxesRaw(Box[][] boxes){
+        this.boxes=boxes;
+    }
+
+    public Box[][] getBoxes() {
+        return (boxes == null) ? this.buildBoxes() : boxes;
+    }
+
+    public void setBoxesList(Box[] value) {
+        this.boxesList = value;
+    }
+
+    public Box[] getBoxesList() {
+        Box[] result = new Box[boxes.length * boxes[0].length];
+        int i = 0;
+
+        for (int r = 0; r < boxes.length; r++) {
+            for (int c = 0; c < boxes[r].length; c++) {
+                result[i++] = boxes[r][c];
+            }
+        }
+
+        return result;
+    }
+
+    /**
+     * Initialize the temporary unscramble buffers.  Returns the scrambled solution.
+     */
+    public byte[] initializeUnscrambleData() {
+        unscrambleKey = new int[4];
+        unscrambleTmp = new byte[9];
+
+        byte[] solution = getSolutionDown();
+        unscrambleBuf = new byte[solution.length];
+
+        return solution;
+    }
+
+    private byte[] getSolutionDown() {
+        StringBuilder ans = new StringBuilder();
+        for (int c = 0; c < width; c++) {
+            for (int r = 0; r < height; r++) {
+                if (boxes[r][c] != null) {
+                    ans.append(boxes[r][c].getSolution());
+                }
+            }
+        }
+        return ans.toString().getBytes();
+    }
+
+    public void setUnscrambledSolution(byte[] solution) {
+        int i = 0;
+        for (int c = 0; c < width; c++) {
+            for (int r = 0; r < height; r++) {
+                if (boxes[r][c] != null) {
+                    boxes[r][c].setSolution((char) solution[i++]);
+                }
+            }
+        }
+        setScrambled(false);
+    }
+
+    public void setCopyright(String copyright) {
+        this.copyright = copyright;
+    }
+
+    public String getCopyright() {
+        return copyright;
+    }
+
+    public void setDate(Calendar date) {
+        this.pubdate = date;
+    }
+
+    public Calendar getDate() {
+        return pubdate;
+    }
+
+    public void setDownClues(String[] downClues) {
+        this.downClues = downClues;
+    }
+
+    public String[] getDownClues() {
+        return downClues;
+    }
+
+    public void setDownCluesLookup(Integer[] downCluesLookup) {
+        //Arrays.sort(downCluesLookup);
+        this.downCluesLookup = downCluesLookup;
+    }
+
+    public Integer[] getDownCluesLookup() {
+        return downCluesLookup;
+    }
+
+    /**
+     * @param height the height to set
+     */
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    /**
+     * @return the height
+     */
+    public int getHeight() {
+        return height;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNumberOfClues(int numberOfClues) {
+        this.numberOfClues = numberOfClues;
+    }
+
+    public int getNumberOfClues() {
+        return numberOfClues;
+    }
+
+    public int getNumberOfDownClues(){
+        return this.downClues.length;
+    }
+
+    public int getNumberOfAcrossClues(){
+        return this.acrossClues.length;
+    }
+
+    public int getPercentComplete() {
+        return (int)(100 * getFractionComplete());
+    }
+
+    public double getFractionComplete() {
+        int total = 0;
+        int correct = 0;
+
+        for (int r = 0; r < boxes.length; r++) {
+            for (int c = 0; c < boxes[r].length; c++) {
+                if (boxes[r][c] != null) {
+                    total++;
+
+                    if (boxes[r][c].getResponse() == boxes[r][c].getSolution()) {
+                        correct++;
+                    }
+                }
+            }
+        }
+
+        if (total > 0) {
+            return (double)correct / total;
+        } else {
+            LOG.warning("getFractionComplete(): Puzzle is empty?");
+            return -1;
+        }
+    }
+
+    public boolean isSolved() {
+        for (int r = 0; r < boxes.length; r++) {
+            for (int c = 0; c < boxes[r].length; c++) {
+                if (boxes[r][c] != null) {
+                    if (boxes[r][c].getResponse() != boxes[r][c].getSolution()) {
+                        return false;
+                    }
+                }
+            }
+        }
+
+        return true;
+    }
+
+    public int getPercentFilled() {
+        int total = 0;
+        int filled = 0;
+
+        for (int r = 0; r < boxes.length; r++) {
+            for (int c = 0; c < boxes[r].length; c++) {
+                if (boxes[r][c] != null) {
+                    total++;
+
+                    if (boxes[r][c].getResponse() != ' ') {
+                        filled++;
+                    }
+                }
+            }
+        }
+
+        return (filled * 100) / (total);
+    }
+
+    public void setRawClues(String[] rawClues) {
+        this.rawClues = rawClues;
+    }
+
+    public String[] getRawClues() {
+        return rawClues;
+    }
+
+    public void setTime(long time) {
+        this.playedTime = time;
+    }
+
+    public long getTime() {
+        return this.playedTime;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setVersion(String version) {
+        this.version = version;
+    }
+
+    public String getVersion() {
+        return version;
+    }
+
+    public void setScrambled(boolean scrambled) {
+        this.scrambled = scrambled;
+    }
+
+    public boolean isScrambled() {
+        return scrambled;
+    }
+
+    public void setSolutionChecksum(short checksum) {
+        this.solutionChecksum = checksum;
+    }
+
+    public short getSolutionChecksum() {
+        return solutionChecksum;
+    }
+
+    /**
+     * @param width the width to set
+     */
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    /**
+     * @return the width
+     */
+    public int getWidth() {
+        return width;
+    }
+
+    public Box[][] buildBoxes() {
+        int i = 0;
+        boxes = new Box[this.height][this.width];
+
+        for (int r = 0; r < this.height; r++) {
+            for (int c = 0; c < this.width; c++) {
+                boxes[r][c] = boxesList[i++];
+            }
+        }
+
+        return boxes;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+
+        if (obj == null) {
+            return false;
+        }
+
+        if (super.getClass() != obj.getClass()) {  //<here>
+            return false;
+        }
+
+        Puzzle other = (Puzzle) obj;
+
+        if (!Arrays.equals(acrossClues, other.acrossClues)) {
+            return false;
+        }
+
+        if (!Arrays.equals(acrossCluesLookup, other.acrossCluesLookup)) {
+            return false;
+        }
+
+        if (author == null) {
+            if (other.author != null) {
+                return false;
+            }
+        } else if (!author.equals(other.author)) {
+            return false;
+        }
+
+        Box[][] b1 = boxes;
+        Box[][] b2 = other.boxes;
+        boolean boxEq = true;
+
+        for (int r = 0; r < b1.length; r++) {
+            for (int c = 0; c < b1[r].length; c++) {
+                boxEq = boxEq
+                        ? ((b1[r][c] == b2[r][c]) || b1[r][c].equals(b2[r][c]))
+                        : boxEq;
+            }
+        }
+
+        if (!boxEq) {
+            return false;
+        }
+
+        if (copyright == null) {
+            if (other.copyright != null) {
+                return false;
+            }
+        } else if (!copyright.equals(other.copyright)) {
+            return false;
+        }
+
+        if (!Arrays.equals(downClues, other.downClues)) {
+            return false;
+        }
+
+        if (!Arrays.equals(downCluesLookup, other.downCluesLookup)) {
+            return false;
+        }
+
+        if (height != other.height) {
+            return false;
+        }
+
+        if (notes == null) {
+            if (other.notes != null) {
+                return false;
+            }
+        } else if (!notes.equals(other.notes)) {
+            return false;
+        }
+
+        if (getNumberOfClues() != other.getNumberOfClues()) {
+            return false;
+        }
+
+        if (title == null) {
+            if (other.title != null) {
+                return false;
+            }
+        } else if (!title.equals(other.title)) {
+            return false;
+        }
+
+        if (width != other.width) {
+            return false;
+        }
+
+        if (version == null) {
+            if (other.version != null) {
+                return false;
+            }
+        } else if (!version.equals(other.version)) {
+            return false;
+        }
+
+        if (scrambled != other.scrambled) {
+            return false;
+        }
+
+        if (solutionChecksum != other.solutionChecksum) {
+            return false;
+        }
+
+        return true;
+    }
+    private int searchClue(int clue,Integer[] clues){
+        for(int i=0;i<clues.length;i++)
+            if(clues[i] != null && clues[i]==clue)
+                return i;
+        return -1;
+    }
+    public String findAcrossClue(int clueNumber) {
+        //int clueIndex = Arrays.binarySearch(acrossCluesLookup, clueNumber);
+        int clueIndex=searchClue(clueNumber,acrossCluesLookup);
+        return (clueIndex >= 0 ? acrossClues[clueIndex] : null);
+    }
+
+    public String findDownClue(int clueNumber) {
+        //int clueIndex = Arrays.binarySearch(this.downCluesLookup, clueNumber);
+        int clueIndex = searchClue(clueNumber,this.downCluesLookup);
+        return (clueIndex >= 0 ? downClues[clueIndex] : null);
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = (prime * result) + Arrays.hashCode(acrossClues);
+        result = (prime * result) + Arrays.hashCode(acrossCluesLookup);
+        result = (prime * result) + ((author == null) ? 0 : author.hashCode());
+        result = (prime * result) + Arrays.hashCode(boxes);
+        result = (prime * result) +
+                ((copyright == null) ? 0 : copyright.hashCode());
+        result = (prime * result) + Arrays.hashCode(downClues);
+        result = (prime * result) + Arrays.hashCode(downCluesLookup);
+        result = (prime * result) + height;
+        result = (prime * result) + ((notes == null) ? 0 : notes.hashCode());
+        result = (prime * result) + getNumberOfClues();
+        result = (prime * result) + ((title == null) ? 0 : title.hashCode());
+        result = (prime * result) + ((version == null) ? 0 : version.hashCode());
+        result = (prime * result) + width;
+
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Puzzle " + boxes.length + " x " + boxes[0].length + " " +
+                this.title;
+    }
+    public Object clone() throws CloneNotSupportedException{
+        return super.clone();
+    }
+}

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Puzzles Version="1.0">
+<Puzzle>
+		<Title>جدول بیست و هفتم</Title>
+		<Author>حامد</Author>
+		<Copyright>حامد</Copyright>
+		<Notepad>جدول عمومی شماره 27</Notepad>
+		<Source>سری چهارم جداول عمومی</Source>
+		<Publisher>حامد</Publisher>
+		<Editor></Editor>
+		<Date></Date>
+		<Size>
+			<Rows>15</Rows>
+			<Cols>15</Cols>
+		</Size>
+<Grid>
+<Row>          .    </Row>
+<Row>     .    .    </Row>
+<Row>    .    .     </Row>
+<Row>   .    .  .   </Row>
+<Row> .    .     .  </Row>
+<Row>  .    .     . </Row>
+<Row>   .      .    </Row>
+<Row>.    .   .    .</Row>
+<Row>    .      .   </Row>
+<Row> .     .    .  </Row>
+<Row>  .     .    . </Row>
+<Row>   .  .    .   </Row>
+<Row>     .    .    </Row>
+<Row>    .    .     </Row>
+<Row>    .          </Row>
+</Grid>
+<Circles/>
+<RebusEntries>
+<Rebus Col="1" Row="1" Short=" ">ا</Rebus>
+<Rebus Col="2" Row="1" Short=" ">ت</Rebus>
+<Rebus Col="3" Row="1" Short=" ">ی</Rebus>
+<Rebus Col="4" Row="1" Short=" ">ب</Rebus>
+<Rebus Col="5" Row="1" Short=" ">ی</Rebus>
+<Rebus Col="6" Row="1" Short=" ">ب</Rebus>
+<Rebus Col="7" Row="1" Short=" ">ا</Rebus>
+<Rebus Col="8" Row="1" Short=" ">ت</Rebus>
+<Rebus Col="9" Row="1" Short=" ">ی</Rebus>
+<Rebus Col="10" Row="1" Short=" ">ب</Rebus>
+<Rebus Col="12" Row="1" Short=" ">ر</Rebus>
+<Rebus Col="13" Row="1" Short=" ">ا</Rebus>
+<Rebus Col="14" Row="1" Short=" ">ه</Rebus>
+<Rebus Col="15" Row="1" Short=" ">ب</Rebus>
+<Rebus Col="1" Row="2" Short=" ">ن</Rebus>
+<Rebus Col="2" Row="2" Short=" ">و</Rebus>
+<Rebus Col="3" Row="2" Short=" ">ی</Rebus>
+<Rebus Col="4" Row="2" Short=" ">ل</Rebus>
+<Rebus Col="5" Row="2" Short=" ">م</Rebus>
+<Rebus Col="7" Row="2" Short=" ">د</Rebus>
+<Rebus Col="8" Row="2" Short=" ">ا</Rebus>
+<Rebus Col="9" Row="2" Short=" ">ش</Rebus>
+<Rebus Col="10" Row="2" Short=" ">گ</Rebus>
+<Rebus Col="12" Row="2" Short=" ">ش</Rebus>
+<Rebus Col="13" Row="2" Short=" ">ت</Rebus>
+<Rebus Col="14" Row="2" Short=" ">ر</Rebus>
+<Rebus Col="15" Row="2" Short=" ">ا</Rebus>
+<Rebus Col="1" Row="3" Short=" ">ی</Rebus>
+<Rebus Col="2" Row="3" Short=" ">ن</Rebus>
+<Rebus Col="3" Row="3" Short=" ">ل</Rebus>
+<Rebus Col="4" Row="3" Short=" ">ع</Rebus>
+<Rebus Col="6" Row="3" Short=" ">د</Rebus>
+<Rebus Col="7" Row="3" Short=" ">ب</Rebus>
+<Rebus Col="8" Row="3" Short=" ">ی</Rebus>
+<Rebus Col="9" Row="3" Short=" ">م</Rebus>
+<Rebus Col="11" Row="3" Short=" ">ر</Rebus>
+<Rebus Col="12" Row="3" Short=" ">ت</Rebus>
+<Rebus Col="13" Row="3" Short=" ">ش</Rebus>
+<Rebus Col="14" Row="3" Short=" ">ی</Rebus>
+<Rebus Col="15" Row="3" Short=" ">ر</Rebus>
+<Rebus Col="1" Row="4" Short=" ">م</Rebus>
+<Rebus Col="2" Row="4" Short=" ">ل</Rebus>
+<Rebus Col="3" Row="4" Short=" ">ا</Rebus>
+<Rebus Col="5" Row="4" Short=" ">ه</Rebus>
+<Rebus Col="6" Row="4" Short=" ">و</Rebus>
+<Rebus Col="7" Row="4" Short=" ">ا</Rebus>
+<Rebus Col="8" Row="4" Short=" ">پ</Rebus>
+<Rebus Col="10" Row="4" Short=" ">م</Rebus>
+<Rebus Col="11" Row="4" Short=" ">ا</Rebus>
+<Rebus Col="13" Row="4" Short=" ">ی</Rebus>
+<Rebus Col="14" Row="4" Short=" ">س</Rebus>
+<Rebus Col="15" Row="4" Short=" ">ن</Rebus>
+<Rebus Col="1" Row="5" Short=" ">ی</Rebus>
+<Rebus Col="3" Row="5" Short=" ">ق</Rebus>
+<Rebus Col="4" Row="5" Short=" ">ا</Rebus>
+<Rebus Col="5" Row="5" Short=" ">ز</Rebus>
+<Rebus Col="6" Row="5" Short=" ">ر</Rebus>
+<Rebus Col="8" Row="5" Short=" ">ه</Rebus>
+<Rebus Col="9" Row="5" Short=" ">ک</Rebus>
+<Rebus Col="10" Row="5" Short=" ">س</Rebus>
+<Rebus Col="11" Row="5" Short=" ">ک</Rebus>
+<Rebus Col="12" Row="5" Short=" ">س</Rebus>
+<Rebus Col="14" Row="5" Short=" ">ه</Rebus>
+<Rebus Col="15" Row="5" Short=" ">د</Rebus>
+<Rebus Col="1" Row="6" Short=" ">ش</Rebus>
+<Rebus Col="2" Row="6" Short=" ">ب</Rebus>
+<Rebus Col="4" Row="6" Short=" ">ن</Rebus>
+<Rebus Col="5" Row="6" Short=" ">ی</Rebus>
+<Rebus Col="6" Row="6" Short=" ">و</Rebus>
+<Rebus Col="7" Row="6" Short=" ">ا</Rebus>
+<Rebus Col="9" Row="6" Short=" ">ی</Rebus>
+<Rebus Col="10" Row="6" Short=" ">ک</Rebus>
+<Rebus Col="11" Row="6" Short=" ">د</Rebus>
+<Rebus Col="12" Row="6" Short=" ">و</Rebus>
+<Rebus Col="13" Row="6" Short=" ">ر</Rebus>
+<Rebus Col="15" Row="6" Short=" ">گ</Rebus>
+<Rebus Col="1" Row="7" Short=" ">ن</Rebus>
+<Rebus Col="2" Row="7" Short=" ">ا</Rebus>
+<Rebus Col="3" Row="7" Short=" ">م</Rebus>
+<Rebus Col="5" Row="7" Short=" ">ن</Rebus>
+<Rebus Col="6" Row="7" Short=" ">د</Rebus>
+<Rebus Col="7" Row="7" Short=" ">ن</Rebus>
+<Rebus Col="8" Row="7" Short=" ">ا</Rebus>
+<Rebus Col="9" Row="7" Short=" ">ش</Rebus>
+<Rebus Col="10" Row="7" Short=" ">ن</Rebus>
+<Rebus Col="12" Row="7" Short=" ">ا</Rebus>
+<Rebus Col="13" Row="7" Short=" ">ف</Rebus>
+<Rebus Col="14" Row="7" Short=" ">و</Rebus>
+<Rebus Col="15" Row="7" Short=" ">ی</Rebus>
+<Rebus Col="2" Row="8" Short=" ">ل</Rebus>
+<Rebus Col="3" Row="8" Short=" ">د</Rebus>
+<Rebus Col="4" Row="8" Short=" ">م</Rebus>
+<Rebus Col="5" Row="8" Short=" ">ه</Rebus>
+<Rebus Col="7" Row="8" Short=" ">ا</Rebus>
+<Rebus Col="8" Row="8" Short=" ">ن</Rebus>
+<Rebus Col="9" Row="8" Short=" ">ی</Rebus>
+<Rebus Col="11" Row="8" Short=" ">ه</Rebus>
+<Rebus Col="12" Row="8" Short=" ">ل</Rebus>
+<Rebus Col="13" Row="8" Short=" ">ا</Rebus>
+<Rebus Col="14" Row="8" Short=" ">ل</Rebus>
+<Rebus Col="1" Row="9" Short=" ">ت</Rebus>
+<Rebus Col="2" Row="9" Short=" ">ا</Rebus>
+<Rebus Col="3" Row="9" Short=" ">ر</Rebus>
+<Rebus Col="4" Row="9" Short=" ">ج</Rebus>
+<Rebus Col="6" Row="9" Short=" ">ی</Rebus>
+<Rebus Col="7" Row="9" Short=" ">ر</Rebus>
+<Rebus Col="8" Row="9" Short=" ">گ</Rebus>
+<Rebus Col="9" Row="9" Short=" ">ن</Rebus>
+<Rebus Col="10" Row="9" Short=" ">ه</Rebus>
+<Rebus Col="11" Row="9" Short=" ">ا</Rebus>
+<Rebus Col="13" Row="9" Short=" ">ه</Rebus>
+<Rebus Col="14" Row="9" Short=" ">و</Rebus>
+<Rebus Col="15" Row="9" Short=" ">ا</Rebus>
+<Rebus Col="1" Row="10" Short=" ">ن</Rebus>
+<Rebus Col="3" Row="10" Short=" ">ن</Rebus>
+<Rebus Col="4" Row="10" Short=" ">ا</Rebus>
+<Rebus Col="5" Row="10" Short=" ">ی</Rebus>
+<Rebus Col="6" Row="10" Short=" ">ا</Rebus>
+<Rebus Col="7" Row="10" Short=" ">ش</Rebus>
+<Rebus Col="9" Row="10" Short=" ">ف</Rebus>
+<Rebus Col="10" Row="10" Short=" ">و</Rebus>
+<Rebus Col="11" Row="10" Short=" ">ر</Rebus>
+<Rebus Col="12" Row="10" Short=" ">ح</Rebus>
+<Rebus Col="14" Row="10" Short=" ">و</Rebus>
+<Rebus Col="15" Row="10" Short=" ">ی</Rebus>
+<Rebus Col="1" Row="11" Short=" ">و</Rebus>
+<Rebus Col="2" Row="11" Short=" ">ا</Rebus>
+<Rebus Col="4" Row="11" Short=" ">ب</Rebus>
+<Rebus Col="5" Row="11" Short=" ">ا</Rebus>
+<Rebus Col="6" Row="11" Short=" ">ر</Rebus>
+<Rebus Col="7" Row="11" Short=" ">ی</Rebus>
+<Rebus Col="8" Row="11" Short=" ">س</Rebus>
+<Rebus Col="10" Row="11" Short=" ">ب</Rebus>
+<Rebus Col="11" Row="11" Short=" ">و</Rebus>
+<Rebus Col="12" Row="11" Short=" ">ر</Rebus>
+<Rebus Col="13" Row="11" Short=" ">غ</Rebus>
+<Rebus Col="15" Row="11" Short=" ">س</Rebus>
+<Rebus Col="1" Row="12" Short=" ">ر</Rebus>
+<Rebus Col="2" Row="12" Short=" ">س</Rebus>
+<Rebus Col="3" Row="12" Short=" ">ی</Rebus>
+<Rebus Col="5" Row="12" Short=" ">ف</Rebus>
+<Rebus Col="6" Row="12" Short=" ">د</Rebus>
+<Rebus Col="8" Row="12" Short=" ">و</Rebus>
+<Rebus Col="9" Row="12" Short=" ">س</Rebus>
+<Rebus Col="10" Row="12" Short=" ">ر</Rebus>
+<Rebus Col="11" Row="12" Short=" ">ت</Rebus>
+<Rebus Col="13" Row="12" Short=" ">م</Rebus>
+<Rebus Col="14" Row="12" Short=" ">ر</Rebus>
+<Rebus Col="15" Row="12" Short=" ">ت</Rebus>
+<Rebus Col="1" Row="13" Short=" ">ج</Rebus>
+<Rebus Col="2" Row="13" Short=" ">ا</Rebus>
+<Rebus Col="3" Row="13" Short=" ">ک</Rebus>
+<Rebus Col="4" Row="13" Short=" ">س</Rebus>
+<Rebus Col="5" Row="13" Short=" ">ا</Rebus>
+<Rebus Col="7" Row="13" Short=" ">ل</Rebus>
+<Rebus Col="8" Row="13" Short=" ">ی</Rebus>
+<Rebus Col="9" Row="13" Short=" ">ا</Rebus>
+<Rebus Col="10" Row="13" Short=" ">ه</Rebus>
+<Rebus Col="12" Row="13" Short=" ">ه</Rebus>
+<Rebus Col="13" Row="13" Short=" ">ن</Rebus>
+<Rebus Col="14" Row="13" Short=" ">و</Rebus>
+<Rebus Col="15" Row="13" Short=" ">گ</Rebus>
+<Rebus Col="1" Row="14" Short=" ">ر</Rebus>
+<Rebus Col="2" Row="14" Short=" ">س</Rebus>
+<Rebus Col="3" Row="14" Short=" ">ا</Rebus>
+<Rebus Col="4" Row="14" Short=" ">ی</Rebus>
+<Rebus Col="6" Row="14" Short=" ">ل</Rebus>
+<Rebus Col="7" Row="14" Short=" ">ا</Rebus>
+<Rebus Col="8" Row="14" Short=" ">ی</Rebus>
+<Rebus Col="9" Row="14" Short=" ">ر</Rebus>
+<Rebus Col="11" Row="14" Short=" ">ی</Rebus>
+<Rebus Col="12" Row="14" Short=" ">م</Rebus>
+<Rebus Col="13" Row="14" Short=" ">ا</Rebus>
+<Rebus Col="14" Row="14" Short=" ">س</Rebus>
+<Rebus Col="15" Row="14" Short=" ">ا</Rebus>
+<Rebus Col="1" Row="15" Short=" ">ه</Rebus>
+<Rebus Col="2" Row="15" Short=" ">ی</Rebus>
+<Rebus Col="3" Row="15" Short=" ">ن</Rebus>
+<Rebus Col="4" Row="15" Short=" ">ب</Rebus>
+<Rebus Col="6" Row="15" Short=" ">ن</Rebus>
+<Rebus Col="7" Row="15" Short=" ">م</Rebus>
+<Rebus Col="8" Row="15" Short=" ">چ</Rebus>
+<Rebus Col="9" Row="15" Short=" ">ی</Rebus>
+<Rebus Col="10" Row="15" Short=" ">و</Rebus>
+<Rebus Col="11" Row="15" Short=" ">ر</Rebus>
+<Rebus Col="12" Row="15" Short=" ">ی</Rebus>
+<Rebus Col="13" Row="15" Short=" ">ک</Rebus>
+<Rebus Col="14" Row="15" Short=" ">ا</Rebus>
+<Rebus Col="15" Row="15" Short=" ">ه</Rebus>
+</RebusEntries>
+<Shades/>
+<Clues>
+<Clue Col="15" Dir="Across" Num="1" Row="1">فصل اول</Clue>
+<Clue Col="10" Dir="Across" Num="2" Row="1">فیلمی به کارگردانی مهرداد فرید با بازی حامد بهداد(1392)</Clue>
+<Clue Col="15" Dir="Across" Num="3" Row="2">قوای نظامی</Clue>
+<Clue Col="10" Dir="Across" Num="4" Row="2">وسیع و پهن</Clue>
+<Clue Col="5" Dir="Across" Num="5" Row="2">هزار هزار</Clue>
+<Clue Col="15" Dir="Across" Num="6" Row="3">واحد زلزله</Clue>
+<Clue Col="9" Dir="Across" Num="7" Row="3">شهری در استان یزد</Clue>
+<Clue Col="4" Dir="Across" Num="8" Row="3">آشکار</Clue>
+<Clue Col="15" Dir="Across" Num="9" Row="4">فراموشی</Clue>
+<Clue Col="11" Dir="Across" Num="10" Row="4">عزیز عرب</Clue>
+<Clue Col="8" Dir="Across" Num="11" Row="4">شهری در استان کرمانشاه</Clue>
+<Clue Col="3" Dir="Across" Num="12" Row="4">درد</Clue>
+<Clue Col="15" Dir="Across" Num="13" Row="5">روستا</Clue>
+<Clue Col="12" Dir="Across" Num="14" Row="5">فواق</Clue>
+<Clue Col="6" Dir="Across" Num="15" Row="5">روزی دهنده</Clue>
+<Clue Col="13" Dir="Across" Num="16" Row="6">پدر شعر فارسی</Clue>
+<Clue Col="7" Dir="Across" Num="17" Row="6">محله ای در شمال غربی شهر تهران</Clue>
+<Clue Col="2" Dir="Across" Num="18" Row="6">یار خوش</Clue>
+<Clue Col="15" Dir="Across" Num="19" Row="7">اتحادیه فوتبال اروپا</Clue>
+<Clue Col="10" Dir="Across" Num="20" Row="7">جلوس دادن</Clue>
+<Clue Col="3" Dir="Across" Num="21" Row="7">شرکت کامیون سازی آلمان</Clue>
+<Clue Col="14" Dir="Across" Num="22" Row="8">عضو گوش</Clue>
+<Clue Col="9" Dir="Across" Num="23" Row="8">شهری در آلمان</Clue>
+<Clue Col="5" Dir="Across" Num="24" Row="8">رفیق و متفق الرای</Clue>
+<Clue Col="15" Dir="Across" Num="25" Row="9">واژه درد</Clue>
+<Clue Col="11" Dir="Across" Num="26" Row="9">یکی از روشهای شکل دهی فلزات در متالوژی</Clue>
+<Clue Col="4" Dir="Across" Num="27" Row="9">پردلی</Clue>
+<Clue Col="15" Dir="Across" Num="28" Row="10">قمر مشتری</Clue>
+<Clue Col="12" Dir="Across" Num="29" Row="10">جمع حرف</Clue>
+<Clue Col="7" Dir="Across" Num="30" Row="10">سزاوار</Clue>
+<Clue Col="13" Dir="Across" Num="31" Row="11">افول کردن</Clue>
+<Clue Col="8" Dir="Across" Num="32" Row="11">تشنه نیست</Clue>
+<Clue Col="2" Dir="Across" Num="33" Row="11">از گروههای خونی</Clue>
+<Clue Col="15" Dir="Across" Num="34" Row="12">نیمسال</Clue>
+<Clue Col="11" Dir="Across" Num="35" Row="12">کم جرات</Clue>
+<Clue Col="6" Dir="Across" Num="36" Row="12">دایره</Clue>
+<Clue Col="3" Dir="Across" Num="37" Row="12">سهولت</Clue>
+<Clue Col="15" Dir="Across" Num="38" Row="13">نوع و طرز</Clue>
+<Clue Col="10" Dir="Across" Num="39" Row="13">ترسناک</Clue>
+<Clue Col="5" Dir="Across" Num="40" Row="13">لیف ظرفشویی</Clue>
+<Clue Col="15" Dir="Across" Num="41" Row="14">نام ها</Clue>
+<Clue Col="9" Dir="Across" Num="42" Row="14">واحد پول خودمان</Clue>
+<Clue Col="4" Dir="Across" Num="43" Row="14">سلاح شتر</Clue>
+<Clue Col="15" Dir="Across" Num="44" Row="15">نوعی ورزش گروهی</Clue>
+<Clue Col="4" Dir="Across" Num="45" Row="15">فطرت، قوه</Clue>
+<Clue Col="15" Dir="Down" Num="1" Row="1">عمل بارش</Clue>
+<Clue Col="15" Dir="Down" Num="25" Row="9">محل توقف وسیله نقلیه</Clue>
+<Clue Col="14" Dir="Down" Num="46" Row="1">آش هلیم</Clue>
+<Clue Col="14" Dir="Down" Num="47" Row="7">خودرو سنگین</Clue>
+<Clue Col="14" Dir="Down" Num="48" Row="12">جمع رئیس</Clue>
+<Clue Col="13" Dir="Down" Num="49" Row="1">همان گل سرخ است</Clue>
+<Clue Col="13" Dir="Down" Num="16" Row="6">آسایش</Clue>
+<Clue Col="13" Dir="Down" Num="31" Row="11">اندوهگین</Clue>
+<Clue Col="12" Dir="Down" Num="50" Row="1">شهر باران</Clue>
+<Clue Col="12" Dir="Down" Num="14" Row="5">پرسش</Clue>
+<Clue Col="12" Dir="Down" Num="29" Row="10">آزاده</Clue>
+<Clue Col="12" Dir="Down" Num="51" Row="13">نشانه فعل استمراری</Clue>
+<Clue Col="11" Dir="Down" Num="52" Row="3">ایستاده</Clue>
+<Clue Col="11" Dir="Down" Num="53" Row="8">فرشته مغضوب</Clue>
+<Clue Col="11" Dir="Down" Num="54" Row="14">مساوی</Clue>
+<Clue Col="10" Dir="Down" Num="2" Row="1">کیف فرنگی</Clue>
+<Clue Col="10" Dir="Down" Num="55" Row="4">خانه</Clue>
+<Clue Col="10" Dir="Down" Num="56" Row="9">پرنده ای شکاری و حلال گوشت</Clue>
+<Clue Col="9" Dir="Down" Num="57" Row="1">سنگی شبیه عقیق</Clue>
+<Clue Col="9" Dir="Down" Num="58" Row="5">مرکز مولداوی</Clue>
+<Clue Col="9" Dir="Down" Num="59" Row="12">لباس زنان هندی</Clue>
+<Clue Col="8" Dir="Down" Num="60" Row="1">مرکز تایوان</Clue>
+<Clue Col="8" Dir="Down" Num="61" Row="7">مارک</Clue>
+<Clue Col="8" Dir="Down" Num="32" Row="11">کلید خودرو</Clue>
+<Clue Col="7" Dir="Down" Num="62" Row="1">مردمان صاحب ادب و فرهنگ</Clue>
+<Clue Col="7" Dir="Down" Num="17" Row="6">هرج و مرج</Clue>
+<Clue Col="7" Dir="Down" Num="63" Row="13">بازیکن تیم بایرن مونیخ</Clue>
+<Clue Col="6" Dir="Down" Num="64" Row="3">شهری در استان لرستان</Clue>
+<Clue Col="6" Dir="Down" Num="65" Row="9">واحد طول انگلیسی</Clue>
+<Clue Col="6" Dir="Down" Num="66" Row="14">هرگز</Clue>
+<Clue Col="5" Dir="Down" Num="67" Row="1">دریا</Clue>
+<Clue Col="5" Dir="Down" Num="68" Row="4">خرج زندگی</Clue>
+<Clue Col="5" Dir="Down" Num="69" Row="10">نوعی نارنگی</Clue>
+<Clue Col="4" Dir="Down" Num="70" Row="1">فرو بردن از راه گلو</Clue>
+<Clue Col="4" Dir="Down" Num="71" Row="5">پسوند دال بر زمان</Clue>
+<Clue Col="4" Dir="Down" Num="72" Row="8">جوابگرفته</Clue>
+<Clue Col="4" Dir="Down" Num="73" Row="13">میوه چهار فصل</Clue>
+<Clue Col="3" Dir="Down" Num="74" Row="1">سردسیر</Clue>
+<Clue Col="3" Dir="Down" Num="21" Row="7">نو</Clue>
+<Clue Col="3" Dir="Down" Num="37" Row="12">آحاد</Clue>
+<Clue Col="2" Dir="Down" Num="75" Row="1">نقب</Clue>
+<Clue Col="2" Dir="Down" Num="18" Row="6">انیمیشن سینمای سه بعدی پیت داکتر</Clue>
+<Clue Col="2" Dir="Down" Num="33" Row="11">بنیادی</Clue>
+<Clue Col="1" Dir="Down" Num="76" Row="1">پویانمایی</Clue>
+<Clue Col="1" Dir="Down" Num="77" Row="9"> نان محلی و سنتی آذربایجان غربی</Clue>
+</Clues>
+<UserGrid>
+<Row>          .    </Row>
+<Row>     .    .    </Row>
+<Row>    .    .     </Row>
+<Row>   .    .  .   </Row>
+<Row> .    .     .  </Row>
+<Row>  .    .     . </Row>
+<Row>   .      .    </Row>
+<Row>.    .   .    .</Row>
+<Row>    .      .   </Row>
+<Row> .     .    .  </Row>
+<Row>  .     .    . </Row>
+<Row>   .  .    .   </Row>
+<Row>     .    .    </Row>
+<Row>    .    .     </Row>
+<Row>    .          </Row>
+</UserGrid>
+<UserRebusEntries/>
+<SquareFlags/>
+</Puzzle>
+</Puzzles>
